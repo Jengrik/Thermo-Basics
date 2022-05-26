@@ -22,9 +22,9 @@
 			<Item Name="01 Cambios de fase.vi" Type="VI" URL="../Features/01 Cambios de fase.vi"/>
 			<Item Name="02 Temperatura Final.vi" Type="VI" URL="../Features/02 Temperatura Final.vi"/>
 			<Item Name="03 Vaporizador.vi" Type="VI" URL="../Features/03 Vaporizador.vi"/>
-			<Item Name="Cálculo Calor Sensible.vi" Type="VI" URL="../Features/Cálculo Calor Sensible.vi"/>
-			<Item Name="Calor Combustión.vi" Type="VI" URL="../Features/Calor Combustión.vi"/>
-			<Item Name="Temperatura de Equilibrio.vi" Type="VI" URL="../Features/Temperatura de Equilibrio.vi"/>
+			<Item Name="04 Calor Sensible.vi" Type="VI" URL="../Features/04 Calor Sensible.vi"/>
+			<Item Name="05 Calor Combustion.vi" Type="VI" URL="../Features/05 Calor Combustion.vi"/>
+			<Item Name="06 Temperatura de Equilibrio.vi" Type="VI" URL="../Features/06 Temperatura de Equilibrio.vi"/>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -79,7 +79,7 @@
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Features/Temperatura de Equilibrio.vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Features/06 Temperatura de Equilibrio.vi</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
@@ -90,7 +90,7 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Features/Cálculo Calor Sensible.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Features/04 Calor Sensible.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
@@ -98,7 +98,7 @@
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Features/Calor Combustión.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Features/05 Calor Combustion.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
