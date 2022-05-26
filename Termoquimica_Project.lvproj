@@ -23,7 +23,7 @@
 			<Item Name="Cálculo Calor Sensible.vi" Type="VI" URL="../Features/Cálculo Calor Sensible.vi"/>
 			<Item Name="Cálculo Temperatura Final.vi" Type="VI" URL="../Features/Cálculo Temperatura Final.vi"/>
 			<Item Name="Calor Combustión.vi" Type="VI" URL="../Features/Calor Combustión.vi"/>
-			<Item Name="Cambios de fase.vi" Type="VI" URL="../Features/Cambios de fase.vi"/>
+			<Item Name="01 Cambios de fase.vi" Type="VI" URL="../Features/01 Cambios de fase.vi"/>
 			<Item Name="Temperatura de Equilibrio.vi" Type="VI" URL="../Features/Temperatura de Equilibrio.vi"/>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
@@ -114,7 +114,7 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Features/Cambios de fase.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Features/01 Cambios de fase.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">13</Property>
