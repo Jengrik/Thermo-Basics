@@ -19,11 +19,11 @@
 		</Item>
 		<Item Name="Sub VIs" Type="Folder"/>
 		<Item Name="Features" Type="Folder">
-			<Item Name="Vaporizador_CL.vi" Type="VI" URL="../Features/Vaporizador_CL.vi"/>
-			<Item Name="Cálculo Calor Sensible.vi" Type="VI" URL="../Features/Cálculo Calor Sensible.vi"/>
-			<Item Name="Cálculo Temperatura Final.vi" Type="VI" URL="../Features/Cálculo Temperatura Final.vi"/>
-			<Item Name="Calor Combustión.vi" Type="VI" URL="../Features/Calor Combustión.vi"/>
 			<Item Name="01 Cambios de fase.vi" Type="VI" URL="../Features/01 Cambios de fase.vi"/>
+			<Item Name="02 Temperatura Final.vi" Type="VI" URL="../Features/02 Temperatura Final.vi"/>
+			<Item Name="03 Vaporizador.vi" Type="VI" URL="../Features/03 Vaporizador.vi"/>
+			<Item Name="Cálculo Calor Sensible.vi" Type="VI" URL="../Features/Cálculo Calor Sensible.vi"/>
+			<Item Name="Calor Combustión.vi" Type="VI" URL="../Features/Calor Combustión.vi"/>
 			<Item Name="Temperatura de Equilibrio.vi" Type="VI" URL="../Features/Temperatura de Equilibrio.vi"/>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
@@ -86,7 +86,7 @@
 				<Property Name="Source[12].itemID" Type="Ref"></Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Features/Vaporizador_CL.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Features/03 Vaporizador.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -94,7 +94,7 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Features/Cálculo Temperatura Final.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Features/02 Temperatura Final.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
